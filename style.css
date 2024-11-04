@@ -1,14 +1,20 @@
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 *{
     padding: 0px;
     margin: 0px;
     border: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     color: white;
 }
 
 .index{
     height: 10vh;
-    background-color: #000022;
+    background-color: #b44907fb;
     display: flex;
     position: sticky;
     position: fixed;
@@ -28,10 +34,14 @@
     justify-content: space-evenly;
 }
 .option{
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 a{
     text-decoration: none;
+}
+
+.option a:hover {
+    color: #000000;
 }
 
 .intro{
@@ -40,17 +50,17 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('back.avif');
+    background-image: url('6397022.avif');
     display: flex;
     align-items: center; 
     justify-content: space-evenly; 
 }
 .text{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 10rem;
 }
 .text p{
-    color: #45cdeffb;
+    color: #b44907fb;
 }
 .pic{
     height: 60vmin;
@@ -61,7 +71,7 @@ a{
 }
 
 main{
-    background-color: #00118e;
+    background-color: #000000;
 }
 main h1{
     font-size: 3rem;
@@ -74,17 +84,17 @@ main h1{
 
 
 #about{
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 .about-text{
     width: 140vmin;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 30vmin;
     margin-bottom: 10vmin;
 }
 
 #events{
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 .event-box{
     display: flex;
@@ -108,7 +118,7 @@ main h1{
 
 
 #team{
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 #team h2{
     margin-left: 10vmin;
@@ -156,7 +166,7 @@ main h1{
 
 .quote_box{
     height: 30vmin;
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     margin: 30px;
     display: flex;
@@ -166,7 +176,7 @@ main h1{
     border-radius: 50%;
     height: 15vmin;
     width: 15vmin;
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -186,10 +196,10 @@ main h1{
 }
 
 #contact{
-    border: 2px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 .socials{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 30vmin;
     margin-bottom: 10vmin;
 }
@@ -202,7 +212,7 @@ main h1{
 
 .copyright{
     height: 5vh;
-    background-color: #040F16;
+    background-color: #b44907fb;
     text-align: center;
     padding-top: 1.5rem;
 }
