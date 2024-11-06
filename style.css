@@ -12,6 +12,10 @@
     color: white;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .index{
     height: 10vh;
     background-color: #b44907fb;
@@ -20,6 +24,9 @@
     position: fixed;
     top: 0;
     transition: all 0.5s ease 0.1s;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 .logo{
     width: 30vw;
@@ -86,6 +93,8 @@ main h1{
 
 #about{
     border: 1px solid rgb(255, 255, 255);
+    overflow: visible;
+    overflow-y: auto;
 }
 .about-text{
     width: 140vmin;
@@ -228,11 +237,52 @@ main h1{
     font-size: 3rem;
 }
 
+.about-text, .socials {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 .copyright{
     height: 5vh;
     background-color: #b44907fb;
     text-align: center;
     padding-top: 1.5rem;
+}
+
+.list, .event-box {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .event-box .e-text {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        margin: 5vh; 
+    }
+    .pic {
+        width: 50vw;
+    }
+    .about-text, .socials {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .quote_text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        font-size: 1rem;
+        padding: 10px;
+    }
 }
 /* 0094C6
 005E7C
