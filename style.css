@@ -271,6 +271,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     display: none;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 .pop-up-text {
     background-color: #b44907fb;
