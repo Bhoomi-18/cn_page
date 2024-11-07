@@ -121,11 +121,24 @@ main h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: contain;
 }
-.label{
-    font-size: 1.5rem;
+button{
+    border: none;
+    align-self: flex-end;
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 0;
 }
-
+button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 
 #team{
     border: 1px solid rgb(255, 255, 255);
@@ -235,11 +248,6 @@ main h1{
     width: 20vmin;
     justify-content: space-evenly;
     font-size: 3rem;
-}
-
-.about-text, .socials {
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
 .copyright{
