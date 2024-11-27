@@ -139,6 +139,42 @@ button:hover{
     opacity: 1;
     cursor: pointer;
 }
+.list, .event-box {
+    flex-wrap: wrap;
+}
+
+.pop-up-box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.pop-up-text {
+    background-color: #b44907fb;
+    z-index: 1;
+    height: 70%;
+    width: 60%;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin: 0;
+}
+
+#pop-up-head {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.pop-up-text i {
+    cursor: pointer;
+    flex: 0 0 auto;
+}
 
 #team{
     border: 1px solid rgb(255, 255, 255);
@@ -255,43 +291,6 @@ button:hover{
     background-color: #b44907fb;
     text-align: center;
     padding-top: 1.5rem;
-}
-
-.list, .event-box {
-    flex-wrap: wrap;
-}
-
-.pop-up-box {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.75);
-}
-.pop-up-text {
-    background-color: #b44907fb;
-    z-index: 1;
-    height: 70%;
-    width: 60%;
-    padding: 1.5rem;
-    border-radius: 2rem;
-    margin: 0;
-}
-
-#pop-up-head {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin: 2rem 0;
-}
-
-.pop-up-text i {
-    cursor: pointer;
-    flex: 0 0 auto;
 }
 
 @media (max-width: 768px) {
