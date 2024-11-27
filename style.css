@@ -123,6 +123,18 @@ main h1{
     justify-content: center;
     background-size: contain;
 }
+
+.event-title {
+    position: absolute;
+    /* top: 10%;
+    left: 50%; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 button{
     border: none;
     align-self: flex-end;
@@ -163,6 +175,7 @@ button:hover{
     padding: 1.5rem;
     border-radius: 2rem;
     margin: 0;
+    overflow-y: scroll;
 }
 
 #pop-up-head {
